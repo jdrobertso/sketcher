@@ -1,0 +1,13 @@
+.floating-box {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 1em;
+	background-color: #11ffee00;
+	text-align: center;
+}
+.container {
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+}
