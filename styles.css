@@ -1,32 +1,38 @@
 .floating-box {
 	display: inline-block;
+	vertical-align: bottom;
 	color: #ffffff;
-	width: 10%;
-	height: 10%;
+	width: 24px;
+	height: 24px;
 	margin: 1px;
 	background-color: #ffffff;
-	text-align: center;
+	text-align: top;
 	border-style: solid;
 	border-width: 1px;
 	flood-color: #ffffff;
 }
 .container {
-	width: 1000px;
-	height: 500px;
+	width: 75%;
+	height: 75%;
 	margin-top: 40px;
-	text-align: center;
+	text-align: bottom;
 	border-style: solid;
 	border-width: 1px;
+	font-size: 0;
 }
 .floating-color{
 	display: inline-block;
+	vertical-align: bottom;
 	color: #000000;
-	width: 10%;
-	height: 10%;
+	width: 24px;
+	height: 24px;
 	margin: 1px;
 	background-color: #000000;
-	text-align: center;
+	text-align: top;
 	border-style: solid;
 	border-width: 1px;
 	flood-color: #000000;
+}
+html, body{
+	height: 600px;
 }

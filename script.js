@@ -1,8 +1,8 @@
 //takes base input and creates base grid
-var boxSize = prompt("How many blocks in the box?", "50");
-var boxPrcnt = 100/boxSize;
+//var boxSize = prompt("How many blocks in the box?", "50");
+//var boxPrcnt = 100/boxSize;
 
-for (var i = 0; i <= boxSize; i++) {
+for (var i = 1; i <= 784; i++) {
 	$(".container").append('<div class="floating-box"></div>');
 };
 
@@ -13,9 +13,9 @@ $(".floating-box").mouseenter(function(){
 
 //clears box and takes new input
 function clrFunc(){
-	var boxSize = prompt("How many blocks in the box?", "50");
+	//var boxSize = prompt("How many blocks in the box?", "50");
 	$(".floating-color").addClass("floating-box").removeClass("floating-color");
-	for (var i = 0; i <= boxSize; i++) {
+	for (var i = 1; i <= boxSize; i++) {
 		$(".container").append('<div class="floating-box"></div>');
 	};
 };
