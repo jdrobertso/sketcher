@@ -1,13 +1,32 @@
 .floating-box {
 	display: inline-block;
-	width: 10px;
-	height: 10px;
-	margin: 1em;
-	background-color: #11ffee00;
-	text-align: center;
-}
-.container {
+	color: #ffffff;
+	width: 10%;
+	height: 10%;
+	margin: 1px;
+	background-color: #ffffff;
 	text-align: center;
 	border-style: solid;
 	border-width: 1px;
+	flood-color: #ffffff;
+}
+.container {
+	width: 1000px;
+	height: 500px;
+	margin-top: 40px;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+}
+.floating-color{
+	display: inline-block;
+	color: #000000;
+	width: 10%;
+	height: 10%;
+	margin: 1px;
+	background-color: #000000;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	flood-color: #000000;
 }
